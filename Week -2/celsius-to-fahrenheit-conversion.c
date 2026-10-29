@@ -7,6 +7,6 @@ int main()
     printf("Enter temperature value in celsius:");
     scanf("%f",&c);
     f=(9*c/5)+32;
-    printf("Fahrenheit temperature:%f",f);
+    printf("Fahrenheit temperature:%.2f",f);
    
 }
