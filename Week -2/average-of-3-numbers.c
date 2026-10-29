@@ -8,7 +8,7 @@ int main()
     printf("Enter values of a,b,c:");
     scanf("%d%d%d",&a,&b,&c);
     sum=a+b+c;
-    printf("sum of three numbers=%d",sum);
+    printf("\nsum of three numbers=%d",sum);
     average=(float)sum/3;
-    printf("Average of three numbers=%f",average);
+    printf("\nAverage of three numbers=%f",average);
 }
