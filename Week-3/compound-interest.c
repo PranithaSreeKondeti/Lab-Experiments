@@ -13,6 +13,6 @@ int main()
     scanf("%f",&t);
     amount=p*pow(1+r/100,t);
     ci=amount-p;
-    printf("Compound interest=%f",ci);
+    printf("Compound interest=%.2f",ci);
     
 }
